@@ -37,6 +37,35 @@ SkyTrail is a full-stack web application featuring basic user authentication and
 Open your terminal and run:
 
 ```bash
-git clone https://github.com/your-username/skytrail.git
-cd skytrail
+git clone https://github.com/ankul07/skytrail_assessment.git
+cd client
+npm install
+
+cd  server-template
+npm install
+```
+
+### 2. Backend Setup
+
+PORT=9010 # The port number where the server will run
+
+# Database Configuration
+
+MONGODB_URI= # your mongordb url
+
+# JWT Authentication - Access Token
+
+JWT_ACCESS_TOKEN_SECRET= # Secret key for signing access tokens
+JWT_ACCESS_TOKEN_EXPIRES_IN=90h
+
+```bash
+
+cd client
+npm install
+npm run dev
+
+cd  server-template
+npm install
+npm run dev
+
 ```
