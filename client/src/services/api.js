@@ -1,5 +1,5 @@
 import axios from "axios";
-const server = "http://localhost:9010/api";
+const server = "https://skytrail-assessment.vercel.app/api";
 
 export const fetchCountries = async () => {
   try {
