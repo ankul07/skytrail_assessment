@@ -1,3 +1,5 @@
+access my webstie = https://skytrail-assessment-gzzl.vercel.app
+
 # SkyTrail
 
 SkyTrail is a full-stack web application featuring basic user authentication and private routes. It uses React with Vite for the frontend and a custom-built Express/Node.js server template for the backend. The app displays user information, fetches country data from the [Rest Countries API](https://restcountries.com/), and presents each country as a blog post with detailed information.
